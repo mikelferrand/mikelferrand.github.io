@@ -45,15 +45,15 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
 
     //A
-createPlatform(190,450,200,20)
+createPlatform(60,450,200,20)
 //B
-createPlatform(150,550,200,20)
+createPlatform(80,225,200,20)
 //C
-createPlatform(250,100,200,20)
+createPlatform(300,540,200,20)
 //D
-createPlatform(450,200,200,20)
+createPlatform(430,400,200,20)
 //E
-createPlatform(430,250,200,20)
+createPlatform(550,275,200,20)
     
     // TODO 2
     // Create collectables
@@ -62,9 +62,9 @@ createPlatform(430,250,200,20)
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
 
-createCollectable(1050,500)
-createCollectable(350,500)
-createCollectable(700,500)
+createCollectable("database",550,275,20,0.5)
+createCollectable("database",350,500,20,0.5)
+createCollectable("database",50,400,20,0.5)
 
     // TODO 3
     // Create cannons
@@ -72,11 +72,10 @@ createCollectable(700,500)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-createCannon("left",1400,500)
-createCannon("right",0,500)
-createCannon("down",700,0)
 
-
+createCannon("left",600,550); // cannon on left wall, 600px down, shooting once per second
+createCannon("right",800,550); // cannon on right wall, 600px down, shooting once per second
+createCannon("right",700,400); // cannon on right wall, 600px down, shooting once per second
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
     /////////////////////////////////////////////////
