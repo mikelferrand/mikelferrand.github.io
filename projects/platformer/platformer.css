@@ -1,9 +1,9 @@
 body {
-  margin: 0px;
+  margin: 64px;
 }
 
 canvas {
-  background-color: lightgray;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZxLXMXxofrK-TGJzpe_87196enTMw-y_65w&amp;usqp=CAU");
 }
 
 img {
