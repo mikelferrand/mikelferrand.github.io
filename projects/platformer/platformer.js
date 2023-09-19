@@ -72,7 +72,7 @@ createCollectable("database",50,400,20,0.5)
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-
+createCannon("top",200,900)
 createCannon("left",600,550); // cannon on left wall, 600px down, shooting once per second
 createCannon("right",800,550); // cannon on right wall, 600px down, shooting once per second
 createCannon("right",700,400); // cannon on right wall, 600px down, shooting once per second
