@@ -42,11 +42,17 @@ var circles = [];
         */
         function update() {
             // TODO 4 : Update the circle's position //
-
-            
+physikz.updatePosition(cirlces[0])
+physikz.updatePosition(cirlces[1])
+physikz.updatePosition(cirlces[2])
+physikz.updatePosition(cirlces[3])
+physikz.updatePosition(cirlces[4])
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
-
+            game.checkCirclePosition(cirlces[0])
+            game.checkCirclePosition(cirlces[1])
+            game.checkCirclePosition(cirlces[2])
+            game.checkCirclePosition(cirlces[3])
+            game.checkCirclePosition(cirlces[4])
             // TODO 9 : Iterate over the array
            
             
